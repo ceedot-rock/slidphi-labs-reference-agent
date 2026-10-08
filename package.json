@@ -1,0 +1,17 @@
+{
+  "name": "slidphi-labs-reference-agent",
+  "version": "1.0.0",
+  "description": "AI agent authenticating via Rider and paying via x402/AwLPay",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3",
+    "@solana/spl-token": "^0.4.6",
+    "ethers": "^6.13.0"
+  },
+  "keywords": ["x402", "ai-agent", "rider", "awlpay", "solana", "usdc", "mcp"],
+  "license": "AGPL-3.0"
+}
